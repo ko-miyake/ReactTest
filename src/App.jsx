@@ -1,8 +1,9 @@
 import {ColorMessage} from "./components/ColorMessage";
+import {CssModules} from "./components/CssModules";
 import { useState,useEffect } from "react";
 
 export const App = () =>{
-
+    // console.log("レンダリング");
     const [num,setNum] = useState(0);
     useEffect(()=>{
         alert();
@@ -18,6 +19,7 @@ export const App = () =>{
         <>
             {console.log("TEST")}
             <h1 style={{color:"red"}}>hoge</h1>
+            <CssModules></CssModules>
             <ColorMessage color="blue">aa</ColorMessage>
             <ColorMessage color="red">aa</ColorMessage>
             <button onClick={onClickButton}>byutton</button>

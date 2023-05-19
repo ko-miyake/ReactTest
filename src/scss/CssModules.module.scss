@@ -1,0 +1,17 @@
+.containar{
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+    margin: 0;
+    color: #aaa;
+}
+.button{
+    background: #ddd;
+    border:none;
+}
