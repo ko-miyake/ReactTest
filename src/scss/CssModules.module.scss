@@ -15,3 +15,16 @@
     background: #ddd;
     border:none;
 }
+.box{
+    background: BLUE;
+    padding: 1rem;
+    &.box-red{
+        background: red;
+    }
+    &.box-gray{
+        background: gray;
+    }
+    &.box-orange{
+        background: orange;
+    }
+}

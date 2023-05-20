@@ -1,5 +1,5 @@
 import {ColorMessage} from "./components/ColorMessage";
-import {CssModules} from "./components/CssModules";
+import { Child1 } from "./components/Child1";
 import { useState,useEffect } from "react";
 
 export const App = () =>{
@@ -19,7 +19,7 @@ export const App = () =>{
         <>
             {console.log("TEST")}
             <h1 style={{color:"red"}}>hoge</h1>
-            <CssModules></CssModules>
+            <Child1 />
             <ColorMessage color="blue">aa</ColorMessage>
             <ColorMessage color="red">aa</ColorMessage>
             <button onClick={onClickButton}>byutton</button>
